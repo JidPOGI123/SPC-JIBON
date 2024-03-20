@@ -199,7 +199,7 @@ img {
   .banner__left span{
     color: var(--green);
   }
-/* About ME */
+
 /* ABOUT */
 .about{
     padding-bottom: 5rem;
@@ -360,6 +360,8 @@ img {
     font-weight: 600;
   }
   .project__title p{
+    
+    color:#2b2b2b;
     font-size: 2rem;
     font-weight: 300;
     margin-bottom: 2rem;
@@ -371,9 +373,8 @@ img {
   }
   .project__card{
     background-color: transparent;
-    background-image: url(image/12.jpg);
     width: 50rem;
-    height: 70rem;
+    height: 120rem;
     max-width: 100%;
     max-height: 100%;
     display: flex;
@@ -382,24 +383,64 @@ img {
     align-items: center;
   }
     .project__card p{
-        align-items: center;
-        color: var(--light);
-        font-weight: 600;
-        transform: translateY(17rem);
+      position: absolute;
+      font-weight:700;
+      align-items: center;
+      color: var(--light);
+     margin-bottom: 15rem;
+      
+        
   }
-  
-  .project__card h3{
-    font-size: 3rem;
-  font-weight: 500;
+  .project__card h6{
+    position: absolute;
+    color:#ffffff;
+  align-items: center;
+  padding-top: 3rem;
+  font-size: 4rem;
+  font-weight: 700;
   margin-bottom: 2rem;
   text-align: center;
   }
   .project__card a{
+    position: absolute;
     transform: translateY(20rem);
+   
   }
 .project__card a:hover{
   background-color: var(--green);
   transition: 0.5 ease;
+}
+/* HIRE */
+.hire__info{
+  padding-top:5rem;
+}
+.hire__info ul li{
+padding-right:5rem;
+}
+.hire__info span{
+  display:flex;
+  border:2px solid lightgray;
+  border-radius:5px;
+  padding:2rem;
+  margin-bottom:2rem;
+}
+.hire__info li:nth-last-child(2) span{
+  align-items:center;
+  padding-bottom:7rem;
+}
+.hire__info ul li a{
+  transition:.3s ease;
+  display:flex;
+  justify-content:center;
+  width:20rem;
+  border-radius:1rem;
+  padding:2rem;
+  color:white;
+  background:rgb(56, 133, 56);
+}
+.hire__info ul li a:hover{
+  transition:.3s ease;
+  background:var(--dark);
 }
 
 /* REPEATABLE PATTERNS */
